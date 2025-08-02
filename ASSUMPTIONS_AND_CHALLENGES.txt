@@ -1,0 +1,16 @@
+## Assumptions and Challenges
+
+### Assumptions
+
+- The WorkMotion platform UI elements and workflows remain consistent throughout testing.
+- Test data such as country names, employment types, and currency options are fixed and predictable as per provided specifications.
+- The date picker and dropdown components follow standard behaviors compatible with Cypress interactions.
+- No AI tools were used for code generation in compliance with task instructions.
+
+### Challenges
+
+- Handling dynamic and complex UI elements such as date pickers, dropdowns, and modals required detailed inspection and multiple retries to find reliable selectors and interaction methods.
+- Some UI elements (e.g., dropdown lists) dynamically re-rendered after interactions, causing Cypress to lose element references; this required breaking command chains and aliasing elements.
+- Managing asynchronous behaviors, like waiting for dropdown options or validation messages, necessitated careful use of Cypress waits and timeouts to ensure test stability without flakiness.
+- Implementing negative test scenarios (validation checks) alongside positive flows required extra attention to selector accuracy and timing.
+- Coordinating test data between fixtures and the test scripts ensured maintainability but added initial setup complexity.
