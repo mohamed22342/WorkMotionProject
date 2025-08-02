@@ -8,9 +8,11 @@
 - No AI tools were used for code generation in compliance with task instructions.
 
 ### Challenges
-
+- This was my first hands-on experience with Cypress, so I had to quickly learn the framework's structure, syntax, and best practices in a short timeframe.
+- The entire task had to be completed within 3 days, which required efficient time management to balance learning and implementation.
 - Handling dynamic and complex UI elements such as date pickers, dropdowns, and modals required detailed inspection and multiple retries to find reliable selectors and interaction methods.
 - Some UI elements (e.g., dropdown lists) dynamically re-rendered after interactions, causing Cypress to lose element references; this required breaking command chains and aliasing elements.
 - Managing asynchronous behaviors, like waiting for dropdown options or validation messages, necessitated careful use of Cypress waits and timeouts to ensure test stability without flakiness.
 - Implementing negative test scenarios (validation checks) alongside positive flows required extra attention to selector accuracy and timing.
 - Coordinating test data between fixtures and the test scripts ensured maintainability but added initial setup complexity.
+
