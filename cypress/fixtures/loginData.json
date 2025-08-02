@@ -1,0 +1,10 @@
+{
+  "validUser": {
+    "email": "avengers.engineering+hr1@workmotion.com",
+    "password": "DummyPass.12"
+  },
+  "invalidUser": {
+    "email": "wronguser@example.com",
+    "password": "WrongPass123"
+  }
+}

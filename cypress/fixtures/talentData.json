@@ -1,0 +1,27 @@
+{
+  "validTalent": {
+    "firstName": "Ahmed",
+    "lastName": "Talaat",
+    "talentEmail": "try.test@example.com",
+    "startDate": "2025-08-05",
+    "jobTitle": "Software Engineer",
+    "jobDescription": "Develop and maintain web applications.",
+    "eligibleToWork": "Yes",
+    "isExecutive": "No",
+    "employmentType": "Full-time",
+    "contractType": "Fixed",
+    "worksFromHome": "Yes",
+    "reimburseExpenses": "No",
+    "costCenter": "TechDept-01",
+    "subEntity": "Workmotion GmbH",
+    "probationPeriod": "Yes",
+
+    "employeeParticipation": "No",
+    "currency": "EGP",
+    "baseSalary": "40000",
+    "receiveBonus": "No",
+    "receiveVariableBonus": "No",
+    "signOnBonus": "1000",
+    "receiveAllowances": "No"
+  }
+}
